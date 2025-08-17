@@ -1,0 +1,87 @@
+.post-grid,
+.related-posts .post-grid {
+	display: grid;
+	color: $muriel-white;
+	grid-gap: 2.4rem;
+	grid-template-columns: repeat(auto-fit, minmax(30.4rem, 1fr));
+	margin: 7.2rem auto 3.7rem;
+	max-width: calc(100% - 2.4rem);
+
+	article:not(.grid-item__welcome):not(.go-cta__create) {
+		background-color: $muriel-gray-400;
+		border-radius: 0.4rem;
+
+		&.category-digital-marketing {
+			background-color: $muriel-blue-400;
+		}
+		&.category-tutorials {
+			background-color: $muriel-green-400;
+		}
+		&.category-web-design {
+			background-color: $muriel-celadon-400;
+		}
+		&.category-website-building {
+			background-color: $muriel-purple-400;
+		}
+		&.category-content-blogging {
+			background-color: $muriel-pink-400;
+		}
+	}
+
+	h2,
+	.entry-title {
+		color: $muriel-white;
+		font-size: 2.4rem;
+	}
+
+	a {
+		color: $muriel-white;
+		word-break: break-word;
+	}
+
+	@include breakpoint('>1280px') {
+		max-width: 960px;
+	}
+
+	.cat-links {
+		color: $muriel-white;
+	}
+}
+.post-grid .entry-header {
+	padding: 2.4rem 2.4rem 4.8rem;
+}
+
+.post-card {
+	display: block;
+	height: 100%;
+}
+
+.related-posts,
+.about-the-author {
+	margin-top: 0;
+
+	> h4 {
+		border-top: 0.2rem solid $muriel-gray-50;
+		margin: 0 auto;
+		max-width: 76.8rem;
+		position: relative;
+
+		span {
+			@include text-12();
+			letter-spacing: 0;
+			background-color: $muriel-white;
+			color: #636d75;
+			font-family: $font__sans;
+			font-weight: $font__bold;
+			left: 50%;
+			padding: 0 0.5rem;
+			position: absolute;
+			top: 0;
+			transform: translate(-50%, -55%);
+		}
+	}
+}
+
+.infinite-loader {
+	grid-column: 1 / -1;
+}
