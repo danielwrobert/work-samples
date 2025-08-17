@@ -1,6 +1,6 @@
 # Work Samples
 
-This repository contains a small sample of production-ready code samples that showcase your recent WordPress and Gutenberg experience.
+This repository contains a small sample of production-ready code samples that showcase recent WordPress and Gutenberg experience.
 
 ## Included samples
 
