@@ -43,6 +43,8 @@ cse-blocks/
 
 Most of my work and involvement with custom blocks over the past few years has been done in the [WooCommerce Blocks](https://github.com/woocommerce/woocommerce-blocks/) and [WooCommerce](https://github.com/woocommerce/woocommerce/) repositories.
 
-Below is a PR that I authored while working on the Mini Cart block. Note that I did not author the block from the start, but it fell under my team's purview and I was able to contribute to it during one of our Sprints.
+Below is a PR that I authored while working on the Mini Cart block in WooCommerce:
 
-[Add option to hide/show price in Mini Cart block](https://github.com/woocommerce/woocommerce-blocks/pull/6796)
+- [**Add option to hide/show price in Mini Cart block**](https://github.com/woocommerce/woocommerce-blocks/pull/6796)
+
+Note that I did not author the block from the start, but it fell under my team's purview and I was able to contribute to it during one of our Sprints.
