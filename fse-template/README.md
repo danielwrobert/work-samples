@@ -8,7 +8,7 @@ Lines 74-105 of `functions.php` are the relevant code for registering the bindin
 
 You can view the full codebase in the project's [GitHub repository](https://github.com/danielwrobert/demeter).
 
-## Technical Decisions
+## Technical Approach
 
 There are several ways to approach this but I chose to utilize the Block Bindings API. I used the core Paragraph block to render the copyright notice and then use the Block Bindings API to prepend the current year. This is a simple use case and the Block Bindings API is a good fit.
 

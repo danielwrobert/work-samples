@@ -6,9 +6,9 @@ Here I chose a simple "Related Posts" block that I put together for a client. It
 
 Because this block needs to fetch posts from the database, I chose to build it as a server-side-rendered block.
 
-## Project Structure
+## Plugin Structure
 
-```
+```text
 cse-blocks/
 ├── cse-blocks.php                # Main plugin file with header and includes
 ├── package.json                  # Node.js dependencies and build scripts
