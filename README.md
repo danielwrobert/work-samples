@@ -99,7 +99,6 @@ Custom PHP class demonstrating WordPress modifications:
 - Custom archive page post ordering by meta field
 - Permalink structure changes (srf-team-category → team/category)
 - Custom rewrite rules for URL preservation
-- Integration with WordPress core systems
 
 ## Technical Highlights
 

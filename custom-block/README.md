@@ -2,11 +2,15 @@
 
 This is an example of a custom block written in React (no ACF), including block.json and edit.js.
 
-Here I chose a simple "Related Posts" block that I put together for a client. It is a simple block and it is not currently used in the site yet – they are still in the process adding more content before this block is used. This is still a bit of a work in progress but it's a good example of how I approach creating a custom block in Gutenberg.
+Here I chose a simple "Related Posts" block that I put together for a client. It is a simple block and the client is still in the process of adding more content before this block is used. This is still a bit of a work in progress but it's a good example of how I approach creating custom blocks in Gutenberg.
 
-Because this block needs to fetch posts from the database, I chose to build it as a server-side-rendered block.
+## Technical Approach
 
-## Plugin Structure
+Because this block needs to fetch posts from the database to render on the front end, I needed to build it as a server-side-rendered block. I took advantage of the `ServerSideRender` component to show a visual representation of how the block will appear on the frontend, even though its rendering logic resides in the PHP file.
+
+One thing I would do differently is use the Core Header block as an Inner Block for the block heading. This would allow for more flexibility to change the heading text, as opposed to having it hardcoded in the block. I plan to revisit this to make that update.
+
+### Plugin Structure
 
 ```text
 cse-blocks/

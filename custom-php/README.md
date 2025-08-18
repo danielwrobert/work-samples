@@ -8,7 +8,7 @@ This is an example of custom PHP code used in a client site's custom post type c
 
 The relevant code is on lines 146-210 of the `class-srf-team.php` file.
 
-## Additional Context
+## Technical Approach & Additional Context
 
 This is a site that I built for a non-profit organization that I volunteer for as their technical lead. When I joined, the site was running on Webflow. While Webflow offers a strong visual editing experience, it presented limitations around user roles and content management—particularly the inability to support multiple editors without additional per-user costs. To better support the organization’s needs, I migrated the site to WordPress, enabling custom roles, granular permissions, and a more scalable, intuitive content workflow.
 
