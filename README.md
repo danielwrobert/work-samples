@@ -6,36 +6,36 @@ This repository contains a small sample of production-ready code samples that sh
 
 ```text
 work-samples/
-├── README.md                     # This file - repository overview and documentation
-├── custom-block/                 # Custom Gutenberg block implementation
-│   ├── README.md                 # Detailed documentation of the custom block
-│   └── cse-blocks/              # WordPress plugin directory
-│       ├── cse-blocks.php        # Main plugin file with header and includes
-│       ├── package.json          # Node.js dependencies and build scripts
-│       ├── package-lock.json     # Locked dependency versions
-│       ├── LICENSE               # GNU General Public License v3
-│       ├── inc/                  # PHP includes directory
-│       │   ├── blocks/           # Block registration and rendering
-│       │   │   └── related-posts.php  # Related Posts block PHP logic
+├── README.md                              # This file - repository overview and documentation
+├── custom-block/                          # Custom Gutenberg block implementation
+│   ├── README.md                          # Detailed documentation of the custom block
+│   └── cse-blocks/                        # WordPress plugin directory
+│       ├── cse-blocks.php                 # Main plugin file with header and includes
+│       ├── package.json                   # Node.js dependencies and build scripts
+│       ├── package-lock.json              # Locked dependency versions
+│       ├── LICENSE                        # GNU General Public License v3
+│       ├── inc/                           # PHP includes directory
+│       │   ├── blocks/                    # Block registration and rendering
+│       │   │   └── related-posts.php      # Related Posts block PHP logic
 │       │   └── editor-customizations.php  # Editor customizations and block categories
-│       └── src/                  # Source files for building blocks
-│           ├── icons.js          # SVG icon components (USGlobeIcon, GlobeIcon)
-│           └── related-posts/    # Related Posts block source
-│               ├── block.json    # Block metadata and configuration
-│               ├── edit.js       # Block editor component
-│               ├── index.js      # Block registration entry point
-│               └── style.scss    # Block styles
-├── fse-template/                 # Full Site Editing template implementation
-│   ├── README.md                 # Documentation of the FSE template approach
-│   ├── functions.php             # PHP functions for block bindings and dynamic content
-│   └── footer.html               # HTML template part with dynamic copyright year
-├── css-styling/                  # Advanced SCSS styling examples
-│   ├── README.md                 # Documentation of styling approach
-│   ├── _home.scss                # Home page specific styles with animations and responsive layout
-│   └── _post-grid.scss          # Post grid component styles
-└── custom-php/                   # Custom PHP class for WordPress modifications
-    ├── README.md                 # Documentation of PHP customizations
-    └── class-srf-team.php        # Custom post type class with permalink and archive modifications
+│       └── src/                           # Source files for building blocks
+│           ├── icons.js                   # SVG icon components (USGlobeIcon, GlobeIcon)
+│           └── related-posts/             # Related Posts block source
+│               ├── block.json             # Block metadata and configuration
+│               ├── edit.js                # Block editor component
+│               ├── index.js               # Block registration entry point
+│               └── style.scss             # Block styles
+├── fse-template/                          # Full Site Editing template implementation
+│   ├── README.md                          # Documentation of the FSE template approach
+│   ├── functions.php                      # PHP functions for block bindings and dynamic content
+│   └── footer.html                        # HTML template part with dynamic copyright year
+├── css-styling/                           # Advanced SCSS styling examples
+│   ├── README.md                          # Documentation of styling approach
+│   ├── _home.scss                         # Home page specific styles with animations and responsive layout
+│   └── _post-grid.scss                    # Post grid component styles
+└── custom-php/                            # Custom PHP class for WordPress modifications
+    ├── README.md                          # Documentation of PHP customizations
+    └── class-srf-team.php                 # Custom post type class with permalink and archive modifications
 ```
 
 ## Included Samples
