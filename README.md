@@ -4,7 +4,7 @@ This repository contains a small sample of production-ready code samples that sh
 
 ## Repository Structure
 
-```
+```text
 work-samples/
 ├── README.md                     # This file - repository overview and documentation
 ├── custom-block/                 # Custom Gutenberg block implementation
@@ -41,49 +41,61 @@ work-samples/
 ## Included Samples
 
 ### [Custom Block](custom-block/)
+
 A custom Gutenberg block written in React (no ACF) that demonstrates:
+
 - **Related Posts Block**: A server-side rendered block that fetches posts from the database
 - **Modern Development**: Uses React components, SCSS styling, and proper block.json configuration
 - **Plugin Architecture**: Complete WordPress plugin structure with proper organization
 - **Block Bindings**: Integration with WordPress core block system
 
 **Key Features:**
+
 - Server-side rendering for database queries
 - Custom block categories and editor customizations
 - SVG icon components
 - Build system with Node.js dependencies
 
 ### [Full Site Editing Template](fse-template/)
+
 A full-site editing `.html` template implementation showcasing:
+
 - **Dynamic Content**: Uses Block Bindings API to display current year in copyright
 - **Template Parts**: Modular footer template with dynamic data
 - **Modern WordPress**: Leverages FSE capabilities for dynamic content
 
 **Technical Approach:**
+
 - Utilizes Block Bindings API for dynamic content
 - Integrates with core Paragraph block
 - Demonstrates FSE template architecture
 
 ### [CSS Styling](css-styling/)
+
 Advanced SCSS styling examples featuring:
+
 - **Animations**: Complex CSS animations and transitions
 - **Responsive Design**: Mobile-first responsive layouts
 - **Modular Architecture**: Organized SCSS partials for maintainability
 - **Modern CSS**: Uses latest CSS features and best practices
 
 **Components:**
+
 - Home page specific styles with advanced animations
 - Post grid component with responsive behavior
 - Organized SCSS structure for scalability
 
 ### [Custom PHP](custom-php/)
+
 Custom PHP class demonstrating WordPress modifications:
+
 - **Custom Post Types**: Team member content type with custom behavior
 - **Permalink Modifications**: Custom URL structure for better SEO
 - **Archive Customization**: Modified post ordering by custom meta fields
 - **Rewrite Rules**: Custom URL rewriting for clean permalinks
 
 **Key Modifications:**
+
 - Custom archive page post ordering by meta field
 - Permalink structure changes (srf-team-category → team/category)
 - Custom rewrite rules for URL preservation
@@ -100,6 +112,7 @@ Custom PHP class demonstrating WordPress modifications:
 ## Additional Context
 
 These samples represent real-world WordPress development experience, including:
+
 - Client project implementations
 - Personal blog development
 - Non-profit organization website migrations
